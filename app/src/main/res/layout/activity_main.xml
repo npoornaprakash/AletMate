@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtContactInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No contacts saved"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:padding="12dp"
+            android:background="#EFEFEF"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp"
+            android:importantForAccessibility="yes" />
+
+        <EditText
+            android:id="@+id/editTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter timer (min)"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="16dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnStartTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Timer"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnStopTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Timer"
+            android:backgroundTint="#E53935"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Contact"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnDeleteContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete All Contacts"
+            android:backgroundTint="#F57C00"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:importantForAccessibility="yes" />
+
+        <Button
+            android:id="@+id/btnSendAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚨 Emergency Alert"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"
+            android:importantForAccessibility="yes" />
+    </LinearLayout>
+</ScrollView>

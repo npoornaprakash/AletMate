@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlertMate</string>
+    <string name="start_timer">Start Timer</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="delete_contacts">Delete All Contacts</string>
+    <string name="emergency_alert">🚨 Emergency Alert</string>
+    <string name="no_contacts_saved">No contacts saved</string>
+    <string name="enter_timer_hint">Enter timer (minutes)</string>
+</resources>
